@@ -13,13 +13,13 @@ function subsite_permissions_user_default_roles() {
   // Exported role: let bruger.
   $roles['let bruger'] = array(
     'name' => 'let bruger',
-    'weight' => '3',
+    'weight' => 3,
   );
 
   // Exported role: super bruger.
   $roles['super bruger'] = array(
     'name' => 'super bruger',
-    'weight' => '4',
+    'weight' => 4,
   );
 
   return $roles;

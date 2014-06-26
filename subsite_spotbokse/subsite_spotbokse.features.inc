@@ -7,8 +7,7 @@
 /**
  * Implements hook_ctools_plugin_api().
  */
-function subsite_spotbokse_ctools_plugin_api() {
-  list($module, $api) = func_get_args();
+function subsite_spotbokse_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }
@@ -17,7 +16,7 @@ function subsite_spotbokse_ctools_plugin_api() {
 /**
  * Implements hook_views_api().
  */
-function subsite_spotbokse_views_api() {
+function subsite_spotbokse_views_api($module = NULL, $api = NULL) {
   return array("api" => "3.0");
 }
 
@@ -41,10 +40,10 @@ function subsite_spotbokse_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '212',
-          'height' => '187',
+          'width' => 212,
+          'height' => 187,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );

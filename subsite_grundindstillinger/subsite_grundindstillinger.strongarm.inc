@@ -140,7 +140,7 @@ function subsite_grundindstillinger_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_page';
-  $strongarm->value = 0;
+  $strongarm->value = '0';
   $export['comment_page'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -405,7 +405,7 @@ function subsite_grundindstillinger_strongarm() {
     'domain' => '',
     'prefix' => 'da',
     'weight' => '0',
-    'javascript' => '2hYpJGzE-HBIr2GU2fETlHk3slmERyZe97dal4R-3yM',
+    'javascript' => 'hznuu6kJ6J4Rtx1qBDvLLk8xcTKf9Jk7B4KPFnGzDBQ',
   );
   $export['language_default'] = $strongarm;
 
@@ -483,9 +483,7 @@ function subsite_grundindstillinger_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_options_page';
-  $strongarm->value = array(
-    0 => 'status',
-  );
+  $strongarm->value = array();
   $export['node_options_page'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -546,7 +544,7 @@ function subsite_grundindstillinger_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_submitted_page';
-  $strongarm->value = FALSE;
+  $strongarm->value = 0;
   $export['node_submitted_page'] = $strongarm;
 
   $strongarm = new stdClass();
