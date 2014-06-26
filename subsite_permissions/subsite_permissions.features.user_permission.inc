@@ -674,15 +674,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'publishcontent',
   );
 
-  // Exported permission: 'publish any os2web_borger_dk_article content'.
-  $permissions['publish any os2web_borger_dk_article content'] = array(
-    'name' => 'publish any os2web_borger_dk_article content',
-    'roles' => array(
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: 'publish any page content'.
   $permissions['publish any page content'] = array(
     'name' => 'publish any page content',
@@ -781,15 +772,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'publishcontent',
   );
 
-  // Exported permission: 'publish editable os2web_borger_dk_article content'.
-  $permissions['publish editable os2web_borger_dk_article content'] = array(
-    'name' => 'publish editable os2web_borger_dk_article content',
-    'roles' => array(
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: 'publish editable page content'.
   $permissions['publish editable page content'] = array(
     'name' => 'publish editable page content',
@@ -875,16 +857,6 @@ function subsite_permissions_user_default_permissions() {
   $permissions['publish own media content'] = array(
     'name' => 'publish own media content',
     'roles' => array(
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'publishcontent',
-  );
-
-  // Exported permission: 'publish own os2web_borger_dk_article content'.
-  $permissions['publish own os2web_borger_dk_article content'] = array(
-    'name' => 'publish own os2web_borger_dk_article content',
-    'roles' => array(
-      'let bruger' => 'let bruger',
       'super bruger' => 'super bruger',
     ),
     'module' => 'publishcontent',
@@ -1003,15 +975,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'publishcontent',
   );
 
-  // Exported permission: 'unpublish any os2web_borger_dk_article content'.
-  $permissions['unpublish any os2web_borger_dk_article content'] = array(
-    'name' => 'unpublish any os2web_borger_dk_article content',
-    'roles' => array(
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: 'unpublish any page content'.
   $permissions['unpublish any page content'] = array(
     'name' => 'unpublish any page content',
@@ -1110,15 +1073,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'publishcontent',
   );
 
-  // Exported permission: 'unpublish editable os2web_borger_dk_article content'.
-  $permissions['unpublish editable os2web_borger_dk_article content'] = array(
-    'name' => 'unpublish editable os2web_borger_dk_article content',
-    'roles' => array(
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: 'unpublish editable page content'.
   $permissions['unpublish editable page content'] = array(
     'name' => 'unpublish editable page content',
@@ -1204,16 +1158,6 @@ function subsite_permissions_user_default_permissions() {
   $permissions['unpublish own media content'] = array(
     'name' => 'unpublish own media content',
     'roles' => array(
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'publishcontent',
-  );
-
-  // Exported permission: 'unpublish own os2web_borger_dk_article content'.
-  $permissions['unpublish own os2web_borger_dk_article content'] = array(
-    'name' => 'unpublish own os2web_borger_dk_article content',
-    'roles' => array(
-      'let bruger' => 'let bruger',
       'super bruger' => 'super bruger',
     ),
     'module' => 'publishcontent',
