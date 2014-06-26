@@ -220,7 +220,10 @@ function subsite_permissions_user_default_permissions() {
   // Exported permission: 'create velkomst content'.
   $permissions['create velkomst content'] = array(
     'name' => 'create velkomst content',
-    'roles' => array(),
+    'roles' => array(
+      'let bruger' => 'let bruger',
+      'super bruger' => 'super bruger',
+    ),
     'module' => 'node',
   );
 
@@ -238,7 +241,6 @@ function subsite_permissions_user_default_permissions() {
   $permissions['delete any banner content'] = array(
     'name' => 'delete any banner content',
     'roles' => array(
-      'let bruger' => 'let bruger',
       'super bruger' => 'super bruger',
     ),
     'module' => 'node',
@@ -312,7 +314,9 @@ function subsite_permissions_user_default_permissions() {
   // Exported permission: 'delete any velkomst content'.
   $permissions['delete any velkomst content'] = array(
     'name' => 'delete any velkomst content',
-    'roles' => array(),
+    'roles' => array(
+      'super bruger' => 'super bruger',
+    ),
     'module' => 'node',
   );
 
@@ -410,7 +414,10 @@ function subsite_permissions_user_default_permissions() {
   // Exported permission: 'delete own velkomst content'.
   $permissions['delete own velkomst content'] = array(
     'name' => 'delete own velkomst content',
-    'roles' => array(),
+    'roles' => array(
+      'let bruger' => 'let bruger',
+      'super bruger' => 'super bruger',
+    ),
     'module' => 'node',
   );
 
@@ -428,7 +435,6 @@ function subsite_permissions_user_default_permissions() {
   $permissions['edit any banner content'] = array(
     'name' => 'edit any banner content',
     'roles' => array(
-      'let bruger' => 'let bruger',
       'super bruger' => 'super bruger',
     ),
     'module' => 'node',
@@ -466,7 +472,6 @@ function subsite_permissions_user_default_permissions() {
   $permissions['edit any page content'] = array(
     'name' => 'edit any page content',
     'roles' => array(
-      'let bruger' => 'let bruger',
       'super bruger' => 'super bruger',
     ),
     'module' => 'node',
@@ -495,7 +500,6 @@ function subsite_permissions_user_default_permissions() {
   $permissions['edit any subsite_nyhed content'] = array(
     'name' => 'edit any subsite_nyhed content',
     'roles' => array(
-      'let bruger' => 'let bruger',
       'super bruger' => 'super bruger',
     ),
     'module' => 'node',
@@ -505,7 +509,6 @@ function subsite_permissions_user_default_permissions() {
   $permissions['edit any velkomst content'] = array(
     'name' => 'edit any velkomst content',
     'roles' => array(
-      'let bruger' => 'let bruger',
       'super bruger' => 'super bruger',
     ),
     'module' => 'node',
@@ -605,7 +608,10 @@ function subsite_permissions_user_default_permissions() {
   // Exported permission: 'edit own velkomst content'.
   $permissions['edit own velkomst content'] = array(
     'name' => 'edit own velkomst content',
-    'roles' => array(),
+    'roles' => array(
+      'let bruger' => 'let bruger',
+      'super bruger' => 'super bruger',
+    ),
     'module' => 'node',
   );
 
