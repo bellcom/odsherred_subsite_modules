@@ -41,4 +41,3 @@ features[variable][] = print_display_spotboks
 features[variable][] = print_display_urllist_spotboks
 features[variable][] = save_continue_spotboks
 features[views_view][] = spotbokse
-project path = profiles/odsherred_subsite/modules
