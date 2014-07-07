@@ -232,6 +232,11 @@ function subsite_spotbokse_views_default_views() {
   $handler->display->display_options['fields']['field_ekstra_tekst']['element_class'] = 'ekstratekst';
   $handler->display->display_options['fields']['field_ekstra_tekst']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_ekstra_tekst']['element_default_classes'] = FALSE;
+  $handler->display->display_options['defaults']['sorts'] = FALSE;
+  /* Sorteringskriterie: Indhold: Spotbokse (field_spotbokse:delta) */
+  $handler->display->display_options['sorts']['delta']['id'] = 'delta';
+  $handler->display->display_options['sorts']['delta']['table'] = 'field_data_field_spotbokse';
+  $handler->display->display_options['sorts']['delta']['field'] = 'delta';
   $handler->display->display_options['defaults']['arguments'] = FALSE;
   /* Kontekstuelt filter: Indhold: Nid */
   $handler->display->display_options['arguments']['nid']['id'] = 'nid';
