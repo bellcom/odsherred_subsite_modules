@@ -166,16 +166,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'create media content'.
-  $permissions['create media content'] = array(
-    'name' => 'create media content',
-    'roles' => array(
-      'let bruger' => 'let bruger',
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: 'create page content'.
   $permissions['create page content'] = array(
     'name' => 'create page content',
@@ -265,15 +255,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'delete any media content'.
-  $permissions['delete any media content'] = array(
-    'name' => 'delete any media content',
-    'roles' => array(
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: 'delete any page content'.
   $permissions['delete any page content'] = array(
     'name' => 'delete any page content',
@@ -354,16 +335,6 @@ function subsite_permissions_user_default_permissions() {
     'name' => 'delete own kontaktinfo content',
     'roles' => array(
       'Administrator' => 'Administrator',
-      'let bruger' => 'let bruger',
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'delete own media content'.
-  $permissions['delete own media content'] = array(
-    'name' => 'delete own media content',
-    'roles' => array(
       'let bruger' => 'let bruger',
       'super bruger' => 'super bruger',
     ),
@@ -459,15 +430,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'edit any media content'.
-  $permissions['edit any media content'] = array(
-    'name' => 'edit any media content',
-    'roles' => array(
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: 'edit any page content'.
   $permissions['edit any page content'] = array(
     'name' => 'edit any page content',
@@ -548,16 +510,6 @@ function subsite_permissions_user_default_permissions() {
     'name' => 'edit own kontaktinfo content',
     'roles' => array(
       'Administrator' => 'Administrator',
-      'let bruger' => 'let bruger',
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'edit own media content'.
-  $permissions['edit own media content'] = array(
-    'name' => 'edit own media content',
-    'roles' => array(
       'let bruger' => 'let bruger',
       'super bruger' => 'super bruger',
     ),
@@ -665,15 +617,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'publishcontent',
   );
 
-  // Exported permission: 'publish any media content'.
-  $permissions['publish any media content'] = array(
-    'name' => 'publish any media content',
-    'roles' => array(
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: 'publish any page content'.
   $permissions['publish any page content'] = array(
     'name' => 'publish any page content',
@@ -763,15 +706,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'publishcontent',
   );
 
-  // Exported permission: 'publish editable media content'.
-  $permissions['publish editable media content'] = array(
-    'name' => 'publish editable media content',
-    'roles' => array(
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: 'publish editable page content'.
   $permissions['publish editable page content'] = array(
     'name' => 'publish editable page content',
@@ -848,15 +782,6 @@ function subsite_permissions_user_default_permissions() {
     'roles' => array(
       'Administrator' => 'Administrator',
       'let bruger' => 'let bruger',
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'publishcontent',
-  );
-
-  // Exported permission: 'publish own media content'.
-  $permissions['publish own media content'] = array(
-    'name' => 'publish own media content',
-    'roles' => array(
       'super bruger' => 'super bruger',
     ),
     'module' => 'publishcontent',
@@ -966,15 +891,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'publishcontent',
   );
 
-  // Exported permission: 'unpublish any media content'.
-  $permissions['unpublish any media content'] = array(
-    'name' => 'unpublish any media content',
-    'roles' => array(
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: 'unpublish any page content'.
   $permissions['unpublish any page content'] = array(
     'name' => 'unpublish any page content',
@@ -1064,15 +980,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'publishcontent',
   );
 
-  // Exported permission: 'unpublish editable media content'.
-  $permissions['unpublish editable media content'] = array(
-    'name' => 'unpublish editable media content',
-    'roles' => array(
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: 'unpublish editable page content'.
   $permissions['unpublish editable page content'] = array(
     'name' => 'unpublish editable page content',
@@ -1149,15 +1056,6 @@ function subsite_permissions_user_default_permissions() {
     'roles' => array(
       'Administrator' => 'Administrator',
       'let bruger' => 'let bruger',
-      'super bruger' => 'super bruger',
-    ),
-    'module' => 'publishcontent',
-  );
-
-  // Exported permission: 'unpublish own media content'.
-  $permissions['unpublish own media content'] = array(
-    'name' => 'unpublish own media content',
-    'roles' => array(
       'super bruger' => 'super bruger',
     ),
     'module' => 'publishcontent',
