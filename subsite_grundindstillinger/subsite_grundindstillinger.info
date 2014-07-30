@@ -50,6 +50,7 @@ dependencies[] = views
 dependencies[] = views_content
 dependencies[] = views_slideshow
 dependencies[] = views_slideshow_cycle
+dependencies[] = bigmenu
 context[] = os2web_subsistes_forside
 context[] = os2web_subsistes_global
 ctools[] = context:context:3
