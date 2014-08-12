@@ -405,7 +405,7 @@ function subsite_grundindstillinger_strongarm() {
     'domain' => '',
     'prefix' => 'da',
     'weight' => '0',
-    'javascript' => 'GEENyTYeF2j1QAkpQ7iorRXN3BHAaYJJJT6_oQuxd-c',
+    'javascript' => 'mvz8ehxegyzxEFXI22dln6GJNhQzooVgfaNh60Qtw-M',
   );
   $export['language_default'] = $strongarm;
 
