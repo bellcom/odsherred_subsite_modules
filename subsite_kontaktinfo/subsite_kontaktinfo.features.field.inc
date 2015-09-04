@@ -394,7 +394,7 @@ function subsite_kontaktinfo_field_default_fields() {
         ),
       ),
       'deleted' => '0',
-      'description' => 'Telefon nummer -(inkl. lokalnummer) - eks. 59666666 - <b>uden mellemrum</b>',
+      'description' => 'Telefon nummer -(inkl. lokalnummer) - skal altid stå i blokke af 2 (ex 59 66 66 43)',
       'display' => array(
         'default' => array(
           'label' => 'above',
