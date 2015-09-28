@@ -29,7 +29,7 @@ function subsite_grundindstillinger_menu_default_menu_links() {
     'weight' => '0',
   );
   // Exported menu link: user-menu:http://www.adgangforalle.dk/
-  $menu_links['user-menu:http://www.adgangforalle.dk/'] = array(
+  $menu_links['user-menu:adgangforalle'] = array(
     'menu_name' => 'user-menu',
     'link_path' => 'http://www.adgangforalle.dk/',
     'router_path' => '',
@@ -69,7 +69,6 @@ function subsite_grundindstillinger_menu_default_menu_links() {
   t('A-Å Indeks');
   t('Læs højt');
   t('Sitemap');
-
 
   return $menu_links;
 }
