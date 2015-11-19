@@ -191,11 +191,11 @@ function subsite_grundindstillinger_node_info() {
       'help' => '',
     ),
     'page' => array(
-      'name' => t('Simpel side'),
+      'name' => t('Basic page'),
       'base' => 'node_content',
-      'description' => t('Brug <em>simple sider</em> til dit statiske indhold, som f.eks. en "om os"-side.'),
+      'description' => t('Use <em>basic pages</em> for your static content, such as an \'About us\' page.'),
       'has_title' => '1',
-      'title_label' => t('Titel'),
+      'title_label' => t('Title'),
       'help' => '',
     ),
     'subsite_nyhed' => array(
