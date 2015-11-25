@@ -94,11 +94,12 @@ function os2web_a2aa_index_views_default_views() {
   $handler->display->display_options['filters']['type']['table'] = 'node';
   $handler->display->display_options['filters']['type']['field'] = 'type';
   $handler->display->display_options['filters']['type']['value'] = array(
-    'contentpage' => 'contentpage',
+    'page' => 'page',
   );
 
   /* Display: Page */
   $handler = $view->new_display('page', 'Page', 'page');
+  $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
   $handler->display->display_options['path'] = 'a-aa-index';
   $translatables['a_aa_index'] = array(
     t('Master'),
