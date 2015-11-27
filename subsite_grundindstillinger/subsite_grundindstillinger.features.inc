@@ -191,7 +191,7 @@ function subsite_grundindstillinger_node_info() {
       'help' => '',
     ),
     'page' => array(
-      'name' => t('Basic page'),
+      'name' => t('Simpel side'),
       'base' => 'node_content',
       'description' => t('Use <em>basic pages</em> for your static content, such as an \'About us\' page.'),
       'has_title' => '1',

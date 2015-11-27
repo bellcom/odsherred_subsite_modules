@@ -14,7 +14,7 @@ function subsite_grundindstillinger_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'clean_url';
-  $strongarm->value = TRUE;
+  $strongarm->value = '1';
   $export['clean_url'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -405,7 +405,7 @@ function subsite_grundindstillinger_strongarm() {
     'domain' => '',
     'prefix' => 'da',
     'weight' => '0',
-    'javascript' => '',
+    'javascript' => 'BSqosMlYkd8GEaOWqtZgd7N50gpxirx86_hgUAdpag0',
   );
   $export['language_default'] = $strongarm;
 
@@ -483,9 +483,7 @@ function subsite_grundindstillinger_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_options_page';
-  $strongarm->value = array(
-    0 => 'status',
-  );
+  $strongarm->value = array();
   $export['node_options_page'] = $strongarm;
 
   $strongarm = new stdClass();
