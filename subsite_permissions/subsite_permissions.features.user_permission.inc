@@ -1100,6 +1100,16 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'search',
   );
 
+  // Exported permission: 'view agres_views bookingcalendar'.
+  $permissions['view agres_views bookingcalendar'] = array(
+    'name' => 'view agres_views bookingcalendar',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'anonymous user' => 'anonymous user',
+    ),
+    'module' => 'agres_views',
+  );
+
   // Exported permission: 'view own files'.
   $permissions['view own files'] = array(
     'name' => 'view own files',

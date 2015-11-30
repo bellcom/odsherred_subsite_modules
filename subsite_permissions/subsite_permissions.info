@@ -1,6 +1,7 @@
 name = Subsite Permissions
 core = 7.x
 package = Features
+dependencies[] = agres_views
 dependencies[] = block
 dependencies[] = context
 dependencies[] = delta_blocks
@@ -134,6 +135,7 @@ features[user_permission][] = unpublish own spotboks content
 features[user_permission][] = unpublish own subsite_nyhed content
 features[user_permission][] = unpublish own velkomst content
 features[user_permission][] = use advanced search
+features[user_permission][] = view agres_views bookingcalendar
 features[user_permission][] = view own files
 features[user_permission][] = view own unpublished content
 features[user_role][] = let bruger
