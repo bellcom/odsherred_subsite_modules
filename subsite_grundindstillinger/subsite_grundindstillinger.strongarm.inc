@@ -398,14 +398,14 @@ function subsite_grundindstillinger_strongarm() {
     'language' => 'da',
     'name' => 'Danish',
     'native' => 'Dansk',
-    'direction' => '0',
-    'enabled' => '1',
-    'plurals' => '2',
+    'direction' => 0,
+    'enabled' => 1,
+    'plurals' => 2,
     'formula' => '($n!=1)',
     'domain' => '',
     'prefix' => 'da',
-    'weight' => '0',
-    'javascript' => 'grCFOd0nrq8uHXmIcsykNp7w7moPpDeCrAGdZPaBF9E',
+    'weight' => 0,
+    'javascript' => '',
   );
   $export['language_default'] = $strongarm;
 

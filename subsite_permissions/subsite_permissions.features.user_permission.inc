@@ -147,15 +147,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'create article content'.
-  $permissions['create article content'] = array(
-    'name' => 'create article content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: 'create banner content'.
   $permissions['create banner content'] = array(
     'name' => 'create banner content',
@@ -219,15 +210,6 @@ function subsite_permissions_user_default_permissions() {
   // Exported permission: 'create velkomst content'.
   $permissions['create velkomst content'] = array(
     'name' => 'create velkomst content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'delete any article content'.
-  $permissions['delete any article content'] = array(
-    'name' => 'delete any article content',
     'roles' => array(
       'administrator' => 'administrator',
     ),
@@ -304,15 +286,6 @@ function subsite_permissions_user_default_permissions() {
   // Exported permission: 'delete any velkomst content'.
   $permissions['delete any velkomst content'] = array(
     'name' => 'delete any velkomst content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'delete own article content'.
-  $permissions['delete own article content'] = array(
-    'name' => 'delete own article content',
     'roles' => array(
       'administrator' => 'administrator',
     ),
@@ -398,15 +371,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'edit any article content'.
-  $permissions['edit any article content'] = array(
-    'name' => 'edit any article content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'node',
-  );
-
   // Exported permission: 'edit any banner content'.
   $permissions['edit any banner content'] = array(
     'name' => 'edit any banner content',
@@ -477,15 +441,6 @@ function subsite_permissions_user_default_permissions() {
   // Exported permission: 'edit any velkomst content'.
   $permissions['edit any velkomst content'] = array(
     'name' => 'edit any velkomst content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'edit own article content'.
-  $permissions['edit own article content'] = array(
-    'name' => 'edit own article content',
     'roles' => array(
       'administrator' => 'administrator',
     ),
@@ -582,15 +537,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'media',
   );
 
-  // Exported permission: 'publish any article content'.
-  $permissions['publish any article content'] = array(
-    'name' => 'publish any article content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: 'publish any banner content'.
   $permissions['publish any banner content'] = array(
     'name' => 'publish any banner content',
@@ -667,15 +613,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'publishcontent',
   );
 
-  // Exported permission: 'publish editable article content'.
-  $permissions['publish editable article content'] = array(
-    'name' => 'publish editable article content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: 'publish editable banner content'.
   $permissions['publish editable banner content'] = array(
     'name' => 'publish editable banner content',
@@ -746,15 +683,6 @@ function subsite_permissions_user_default_permissions() {
   // Exported permission: 'publish editable velkomst content'.
   $permissions['publish editable velkomst content'] = array(
     'name' => 'publish editable velkomst content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'publishcontent',
-  );
-
-  // Exported permission: 'publish own article content'.
-  $permissions['publish own article content'] = array(
-    'name' => 'publish own article content',
     'roles' => array(
       'administrator' => 'administrator',
     ),
@@ -841,15 +769,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'search',
   );
 
-  // Exported permission: 'unpublish any article content'.
-  $permissions['unpublish any article content'] = array(
-    'name' => 'unpublish any article content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: 'unpublish any banner content'.
   $permissions['unpublish any banner content'] = array(
     'name' => 'unpublish any banner content',
@@ -926,15 +845,6 @@ function subsite_permissions_user_default_permissions() {
     'module' => 'publishcontent',
   );
 
-  // Exported permission: 'unpublish editable article content'.
-  $permissions['unpublish editable article content'] = array(
-    'name' => 'unpublish editable article content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'publishcontent',
-  );
-
   // Exported permission: 'unpublish editable banner content'.
   $permissions['unpublish editable banner content'] = array(
     'name' => 'unpublish editable banner content',
@@ -1005,15 +915,6 @@ function subsite_permissions_user_default_permissions() {
   // Exported permission: 'unpublish editable velkomst content'.
   $permissions['unpublish editable velkomst content'] = array(
     'name' => 'unpublish editable velkomst content',
-    'roles' => array(
-      'administrator' => 'administrator',
-    ),
-    'module' => 'publishcontent',
-  );
-
-  // Exported permission: 'unpublish own article content'.
-  $permissions['unpublish own article content'] = array(
-    'name' => 'unpublish own article content',
     'roles' => array(
       'administrator' => 'administrator',
     ),
@@ -1098,17 +999,6 @@ function subsite_permissions_user_default_permissions() {
       'super bruger' => 'super bruger',
     ),
     'module' => 'search',
-  );
-
-  // Exported permission: 'view agres_views bookingcalendar'.
-  $permissions['view agres_views bookingcalendar'] = array(
-    'name' => 'view agres_views bookingcalendar',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'anonymous user' => 'anonymous user',
-      'authenticated user' => 'authenticated user',
-    ),
-    'module' => 'agres_views',
   );
 
   // Exported permission: 'view own files'.
