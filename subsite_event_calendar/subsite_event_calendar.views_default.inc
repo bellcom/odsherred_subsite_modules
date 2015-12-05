@@ -205,6 +205,7 @@ function subsite_event_calendar_views_default_views() {
 
   /* Display: Year */
   $handler = $view->new_display('page', 'Year', 'page');
+  $handler->display->display_options['enabled'] = FALSE;
   $handler->display->display_options['defaults']['hide_admin_links'] = FALSE;
   $handler->display->display_options['defaults']['pager'] = FALSE;
   $handler->display->display_options['pager']['type'] = 'date_views_pager';

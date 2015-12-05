@@ -26,11 +26,11 @@ function subsite_event_calendar_views_api($module = NULL, $api = NULL) {
 function subsite_event_calendar_node_info() {
   $items = array(
     'od_event' => array(
-      'name' => t('Event'),
+      'name' => t('Begivenhed'),
       'base' => 'node_content',
-      'description' => t('Create events to be shown on the event calendar.'),
+      'description' => t('Opret begivenheder, som vises på kalenderen.'),
       'has_title' => '1',
-      'title_label' => t('Title'),
+      'title_label' => t('Titel'),
       'help' => '',
     ),
   );

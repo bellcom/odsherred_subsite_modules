@@ -216,6 +216,13 @@ function subsite_grundindstillinger_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'date_format_short';
+  $strongarm->value = 'Y/m/d - H:i';
+  $export['date_format_short'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'error_level';
   $strongarm->value = '0';
   $export['error_level'] = $strongarm;
@@ -398,14 +405,14 @@ function subsite_grundindstillinger_strongarm() {
     'language' => 'da',
     'name' => 'Danish',
     'native' => 'Dansk',
-    'direction' => 0,
-    'enabled' => 1,
-    'plurals' => 2,
+    'direction' => '0',
+    'enabled' => '1',
+    'plurals' => '2',
     'formula' => '($n!=1)',
     'domain' => '',
     'prefix' => 'da',
-    'weight' => 0,
-    'javascript' => '',
+    'weight' => '0',
+    'javascript' => 'vnIZZxze0ie6bQaSPs4egdOupfthd-OP_Bi7rEz4TUw',
   );
   $export['language_default'] = $strongarm;
 
