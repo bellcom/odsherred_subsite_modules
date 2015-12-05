@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Subsite Event Calendar feature.
+ */
+
+include_once 'subsite_event_calendar.features.inc';
