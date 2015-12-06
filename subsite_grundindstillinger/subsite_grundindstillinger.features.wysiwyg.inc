@@ -80,7 +80,6 @@ function subsite_grundindstillinger_wysiwyg_default_profiles() {
       'css_path' => '',
       'css_classes' => '',
     ),
-    'rdf_mapping' => array(),
   );
 
   // Exported profile: full_html
@@ -158,7 +157,6 @@ function subsite_grundindstillinger_wysiwyg_default_profiles() {
       'css_path' => '',
       'css_classes' => '',
     ),
-    'rdf_mapping' => array(),
   );
 
   return $profiles;
